@@ -19,3 +19,9 @@ function addItem(){
     allItems.insertAdjacentElement('beforeend', h2);
     userInput.value="";
 }
+function edit() {
+
+    allItems.removeAdjacentElement('beforeend', h2);
+    userInput.value="";
+  
+  }
