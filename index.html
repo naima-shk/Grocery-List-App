@@ -1,26 +1,55 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grocery List Application</title>
-    <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Grocery List App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Itim&family=Source+Code+Pro:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
+
+
 <body>
+
     <div class="container">
-        <div class="groceries">  
-            <h1 style="text-align: center;">Grocery List</h1>
-            <br>
-            <div style="text-align: center;">
-                <i id="pencil" class="fas fa-pencil-alt"></i>
-                <input type="text" id="userInput">
-            </div>
-            <br>
-            <div id="allItems"></div>
+        <div class="section1">
+            <h1 id="title">Grocery List App</h1>
+            <p>
+                <label for="new-task">Add Grocery Items</label>
+                <input id="new-task" type="text">
+                <button id="addButton"><i class="fas fa-plus-circle"></i></button>
+            </p>
         </div>
+        
+        <div class="section2">
+            <h3>List</h3>
+            <ul id="incomplete-tasks">
+
+            </ul>
+        </div>
+        
+        <div class="section3">
+            <h3>Already bought</h3>
+            <ul id="completed-tasks">
+                <li>
+
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section4">
+            <button id="clear">
+                <p>Clear</p>
+            </button>
+        </div>
+        
     </div>
     <script src="app.js"></script>
+
 </body>
+
 </html>
