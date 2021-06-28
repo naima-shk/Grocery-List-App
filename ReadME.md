@@ -15,7 +15,7 @@
 - Assigned to Rafat Fatima
 - JavaScript work:
 - Assigned to Naima and Hamza.
-# Documentation (ReadMe.md):
+# Documentation 
 - Assigned to Abida.
 - Technologies used:
 - HTML, CSS, JavaScript (for coding and implementation on UI)
@@ -26,7 +26,7 @@
 - To run this app, click live github website link given below. OR
 open index.html in your browser.
 - Repo Link:
-- https://github.com/naima-shk/Grocery-List-App
+ https://github.com/naima-shk/Grocery-List-App
 
 - Live Link:
 https://naima-shk.github.io/Grocery-List-App/
